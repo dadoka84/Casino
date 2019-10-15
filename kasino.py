@@ -41,9 +41,7 @@ if cijena>=20:
     if int(kocka)>stanje: 
             print (ime+" nemaš toliko para na računu.")
             #kocka=input("** "+ime+" koliko želiš da uložiš? ** ")
-            
-        
-    
+       
     if int(kocka)<=stanje:
             print (ime+" uložio si "+kocka+"KM.")
 
